@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 1300px;
+    width: 75%;
     margin: auto;
 }
 
@@ -118,4 +118,174 @@ header {
     font-size: 44px;
     font-weight: normal;
     margin-bottom: 40px;
+}
+
+.grey {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.grey p:first-child {
+    margin-bottom: 8px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.grey p:last-child {
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+}
+
+.three {
+    padding: 100px 0;
+}
+
+.three::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box {
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.box:nth-child(2) {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.box img[alt="piano formativo"]{
+    width: 30%;
+}
+
+.box img[alt="tutor"]{
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.box img[alt="progressi"]{
+    width: 35%;
+    margin-bottom: 6px;
+}
+
+.box p:first-of-type{
+    color: #7fb802;
+    font-size: 23px;
+}
+
+.box hr {
+    color: #373a3c;
+    margin: 20px auto;
+    opacity: .3;
+    width: 32px;
+    border-top: 2px solid;
+}
+
+.box p:last-of-type {
+    color: #999;
+}
+
+.program::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.program img {
+    float: left;
+    width: 50%;
+    padding: 100px 0;
+}
+
+.text {
+    float: right;
+    width: 50%;
+    padding-top: 200px;
+}
+
+.text p:first-of-type {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.text p:last-of-type {
+    font-size: 18px;
+    color: #999;
+    line-height: 21px;
+    margin: 15px 0;
+}
+
+.insert{
+    float: right;
+    text-align: right;
+}
+
+.grey span{
+    font-size: 30px;
+}
+
+.insert span{
+    font-size: 24px;
+    padding: 3px;
+    color: #999;
+}
+
+.insert input{
+    font-size: 24px;
+    padding: 3px;
+    width: 30%;
+}
+
+.insert a{
+    font-size: 24px;
+    padding: 3px;
+    text-transform: none;
+}
+
+.lection{
+    background-color: #0D325A;
+}
+
+.lection::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.text-blue{
+    float: left;
+    width: 40%;
+    padding: 100px 0;
+    color: white;
+}
+
+.lection img{
+    float: left;
+    width: 60%;
+}
+
+.text-blue span{
+    color: #f8b71c;
+}
+
+.text-blue p:first-child{
+    font-size: 30px;
+    opacity: 1;
+}
+
+ .text-blue p{
+    font-size: 18px;
+    margin: 20px 0;
+    opacity: 0.5;
+ }
+
+.text-blue a{
+    color: #98c8f8;
+    margin-top: 20px;
 }
